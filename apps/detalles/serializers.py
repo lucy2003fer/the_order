@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from ..detalles.models import DetallePedido
+from .models import DetallePedido
 
 class DetalleSerializer(serializers.ModelSerializer):
     class Meta:

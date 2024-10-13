@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from ..configuracion.models import ConfiguracionRestaurante
+from .models import ConfiguracionRestaurante
 
 class ConfiguracionSerializer(serializers.ModelSerializer):
     class Meta:

@@ -1,6 +1,6 @@
 from rest_framework import viewsets
 from .models import ConfiguracionRestaurante
-from .serializers import ConfiguracionRestauranteSerializer
+from .serializers import ConfiguracionSerializer
 
 # Create your views here.
 
